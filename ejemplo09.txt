@@ -5,9 +5,13 @@
 4.  indice, i[0-n]
 5.  notasEstudiantes <-- {9, 10, 7, 8}
 6.  nombresEstudiantes <-- {"Mónica", "Homero", "Antonio", "Vanesa"}
-7.  Escribir nombresEstudiantes[0] + " " + notasEstudiantes[0]
-8.  Escribir nombresEstudiantes[3] + " " + notasEstudiantes[3]
-9.  Para(indice<--0, indice<4, 1) haga
-10.     Escribir nombresEstudiantes[indices] + " " + notasEstudiantes[indice]
-11. Fin_Para
-12.  Fin
+7.  Para(indice<--0, indice<4, 1) haga
+8.     Escribir nombresEstudiantes[indices] + " " + notasEstudiantes[indice]
+9. Fin_Para
+10.  Fin
+
+//pantalla
+// Mónica 9
+// Homero 10
+// Antonio 7 
+// Vanesa 8
